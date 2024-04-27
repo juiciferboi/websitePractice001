@@ -1,0 +1,54 @@
+body {
+    background-color: #4B7F52;
+}
+
+main {
+    color: black;
+    text-align: center;
+    display: block;
+    background-color: #5DD181;
+    width: 75%;
+    margin: auto;
+    border: black 5px solid;
+}
+
+#main-div {
+    background-color: #56E8BC;
+    width: 25%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#main-hr {
+    width: auto;
+    height: 5px;
+    background-color: black;
+    border-color: black;
+}
+
+div {
+    background-color: #56E8BC;
+    margin: auto auto 40px auto;
+    border: black solid 3px;
+    width: 75%;
+}
+
+#nameEmailAge {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #B6F9C9;
+    color: black;
+}
+
+#toggleLightDark {
+    width: auto;
+    height: auto;
+    margin-left: 93%;
+}

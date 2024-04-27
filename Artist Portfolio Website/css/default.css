@@ -46,3 +46,9 @@ button {
     background-color: #5A6650;
     color: white;
 }
+
+#toggleLightDark {
+    width: auto;
+    height: auto;
+    margin-left: 93%;
+}
