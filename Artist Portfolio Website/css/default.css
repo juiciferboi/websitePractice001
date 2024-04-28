@@ -27,6 +27,12 @@ main {
     border-color: #5A6650;
 }
 
+#navBar {
+    height: 4vh;
+    margin: 40px auto 0px auto;
+
+}
+
 div {
     background-color: #295135;
     margin: auto auto 40px auto;
@@ -49,7 +55,17 @@ button {
 }
 
 #toggleLightDark {
+    margin-top: 5px;
     width: auto;
     height: auto;
-    margin-left: 93%;
+}
+
+.navbuttons {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+#homeRef {
+    color: white;
 }
