@@ -14,7 +14,7 @@ main {
 
 #main-div {
     background-color: #295135;
-    width: 25%;
+    width: 45%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -32,6 +32,7 @@ div {
     margin: auto auto 40px auto;
     border: #5A6650 solid 3px;
     width: 75%;
+    box-shadow: #000000  4px 6px;
 }
 
 #nameEmailAge {
