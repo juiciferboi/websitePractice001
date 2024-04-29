@@ -7,7 +7,7 @@ $comments = $_POST['comments'];
 
  $mailHeader = "From:" .$name."<".$email.">\r\n";
 
- $recipient = "wrsmalleytcat@gmail.com";
+ $recipient = "";
 
  mail($recipient, $age, $comments, $mailHeader)
  or die("Error!");
