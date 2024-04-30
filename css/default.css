@@ -69,3 +69,8 @@ button {
 #homeRef {
     color: white;
 }
+
+.inputForToDo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

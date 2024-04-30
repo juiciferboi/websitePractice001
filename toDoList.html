@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <title>For Fun Webstie</title>
+</head>
+<body id="body">
+    
+    <main id="mainMain">
+
+        <div class="navBar" id="navBar">
+            <button class="navbuttons"><a id="homeRef" href="index.html">Home</a></button>
+            <button class="navbuttons"><a id="homeRef" href="toDoList.html">toDoList</a></button>
+            <button id="toggleLightDark" name="lightDark" class="toggleLightDark" value="off" onclick="toggle(this)">Toggle Light Mode</button>
+        </div>
+
+        <div id="main-div">
+            <h1>ToDoList</h1>
+        </div>
+
+        <h2><u>Items:</u></h2>
+
+        <div id="toDoList">
+            <label for="inputForToDo"><em>Add: </em></label>
+            <input class="inputForToDo" id="inputForItem" type="text" placeholder="Enter A To Do">
+            <button class="inputForToDo" onclick="addItem()">Add</button>
+
+            <div id="items"></div>
+
+        </div>
+
+      
+    </main>
+</body>
+<script src="javascript/toDoList.js"></script>
+<script src="javascript/javascript.js"></script>
+</html>
