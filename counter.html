@@ -19,24 +19,29 @@
         </div>
 
         <div id="main-div">
-            <h1>colorFlipper</h1>
+            <h1>Counter</h1>
         </div>
 
-        <div id="colorChangeDiv">
+        <div id="counter">
 
-            <button id="colorButton" style="margin-top: 10px;" onclick="randColorSel()">Change Color</button>
-            <label for="toggleButton">Auto Flash: </label><input id="toggleFlash" type="checkbox" name="toggleButton">
+            <div id="spanCont" style="margin-top: 10px;">
+                <span id="value" style="font-size: 100px;">0</span>
+            </div>
+            
+            <div class="buttonContainer">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Rem molestias quibusdam provident nostrum totam quo quia doloremque, modi quis. 
-                Quae saepe aliquam veniam obcaecati incidunt placeat. Ducimus modi possimus corrupti?
-            </p>
+                <button style="margin-top: 10px;" class="btn decrease">Decrease</button>
+                <button class="btn reset">Reset</button>
+                <button class="btn increase">Increase</button>
+
+
+            </div>
 
         </div>
 
       
     </main>
 </body>
-<script src="javascript/colorFlipper.js"></script>
+<script src="javascript/counter.js"></script>
 <script src="javascript/javascript.js"></script>
 </html>

@@ -25,6 +25,7 @@ let time = () => setInterval(randColorSel, 1000);
 toggle.addEventListener("change", () => {
     if (toggle.checked == true) {
         time();
+        document.getElementById("colorButton").remove();
     } else {
         clearInterval(time);
         location.reload();
